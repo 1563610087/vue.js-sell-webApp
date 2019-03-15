@@ -1,30 +1,41 @@
-# sell
+#vue.js仿饿了么外卖webApp
 
-> practice
+## 总结
 
-## Build Setup
+​	这个vue项目是慕课网的一个中级难度的vue项目，从学习vue的基础知识到动手做项目，完成项目，再到最后部署到阿里云，真是一段辛酸的历程！皇天不负有心人，今天终于大功告成！
 
-``` bash
-# install dependencies
-npm install
+​	在开始做这个vue项目的时候，vue已经升级到2.0了，但是这个视频是2017年录制的，采用的是vue1.0，脚手架工具也不一样，因为这个版本的原因，遇到的坑不计其数，每进一步都是磕磕碰碰。当做完这个项目的时候，vue2.5版本已经出来了，而现在vue3.0也出来了。vue版本的更新换代还是比较快的，这也意味着要不断学习才能跟进时代的步伐。
 
-# serve with hot reload at localhost:8080
-npm run dev
+​	目前该项目的作者已经将该项目重构，采用的技术是**vue2.5+vue-router+axios+cube-ui**，之前做项目采用的是**vue2.0+vue-router+vue-resource+better-scroll**。由于时间的关系，目前暂不打算重构该项目，等以后有时间再重构该项目
 
-# build for production with minification
-npm run build
+​	当做完这个项目的时候，一直想部署到云服务器上，但是这个过程还是比较艰难的，这个项目就搁置了两个月。后来一直在学习http 、node.js 、linux和nginx，时至今日终于在不断尝试中把项目部署上去了。
 
-# build for production and view the bundle analyzer report
-npm run build --report
+​	本项目采用node.js编写的小型http服务器，使用pm2来管理进程。话不多说，来看看效果吧
 
-# run unit tests
-npm run unit
+**项目地址**
 
-# run e2e tests
-npm run e2e
+<http://39.108.227.9:8080/#/goods> 
 
-# run all tests
-npm test
-```
+扫描二维码也可访问
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![1552637338](H:\1552637338.png)
+
+
+
+
+
+
+
+## 项目介绍
+
+本项目主要分为三大部分：商品、评论和商家
+
+商品界面可查看各种商品信息，滑动查看菜单，点击菜品可进入商品详情，查看菜品的评论。点击+可实现添加菜品到购物车，购物车可清空及价格计算
+
+评论主要是菜品的评论，可以实现评论筛选，查看全部、满意和不满意部分
+
+商家主要是商家信息页面
+
+
+
+
