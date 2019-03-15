@@ -43,10 +43,10 @@ app.use('/api', apiRoutes);
 
 app.use(express.static('./dist'));
 
-module.exports = app.listen(3000, function (err) {
+module.exports = app.listen(8080, function (err) {
 	if (err) {
 		console.log(err);
 		return
 	}
-	console.log('Listening at http://localhost:' + 3000 + '\n')
+	console.log('Listening at http://localhost:' + 8080 + '\n')
 });
